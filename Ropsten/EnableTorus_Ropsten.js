@@ -20,7 +20,7 @@ await torus.login(); // await torus.ethereum.enable()
 web3tr = new Web3(torus.provider);
 }
 
-const Address = "0xf8203681B565AC71514ce48C801b3503af5622b4";
+const Address = "0x708d5368D3ce647BA4667d9b60d296ec3577e25b";
 
 async function checkcard(){
   console.log("check card");
