@@ -10,9 +10,9 @@ await torus.init({
   buildEnv: "production", // default: production
   enableLogging: true, // default: false
   network: {
-    host: "ropsten", // default: mainnet
-    chainId: 3, // default: 1
-    networkName: "Ropsten Testnet" // default: Main Ethereum Network
+    host: "matic", // default: mainnet
+    chainId: 137, // default: 1
+    networkName: "Matic Network" // default: Main Ethereum Network
   },
   showTorusButton: true // default: true
 });
@@ -20,7 +20,7 @@ await torus.login(); // await torus.ethereum.enable()
 web3tr = new Web3(torus.provider);
 }
 
-const Address = "0x708d5368D3ce647BA4667d9b60d296ec3577e25b";
+const Address = "0x64F02d67374Cf446a6EbF05F3Baed5143a6967AD";
 
 async function checkcard(){
   console.log("check card");
