@@ -30,7 +30,7 @@ async function checkcard(){
   console.log(useraddress[0]);
   let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress[0]).call();
   console.log(fromblockchain1);
-  document.getElementById("idn").innerHTML = fromblockchain1;
+  document.getElementById("idn").innerHTML =  "https://ropsten.etherscan.io/token/0xf8203681B565AC71514ce48C801b3503af5622b4?a=" + fromblockchain1;
 }
 
 async function makecard(){
