@@ -12,5 +12,5 @@ https://nandemotoken.github.io/New-Years-card/xDai/index.html
 
 ---
 
-### 次の画像がトークン化されています。
+### 次の画像がトークン化されています
 ![年賀状](https://github.com/nandemotoken/New-Years-card/blob/gh-pages/NFT_NewYearCard.png?raw=true)
