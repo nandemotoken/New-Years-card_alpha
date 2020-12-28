@@ -1573,7 +1573,7 @@ constructor() ERC721 ("New Years Card 2021" , "CARD2021") public {
     CardNumber++;
     _mint(_msgSender() , CardNumber);
     _setTokenURI( CardNumber ,  "https://raw.githubusercontent.com/nandemotoken/New-Years-card/gh-pages/NewYearsCard.json");
-    cardholdermap[ msg.sender ] = CardNumber ;
+    cardholdermap[ _msgSender() ] = CardNumber ;
     }
     
     function getmycardNumber (address _address) public view returns (uint256) {
