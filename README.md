@@ -1,3 +1,3 @@
 # New-Years-card
 
-https://nandemotoken.github.io/New-Years-Card/index.html
+https://nandemotoken.github.io/New-Years-card/index.html
