@@ -1,7 +1,7 @@
 # New-Years-card
 
 ### Ethereum
-https://nandemotoken.github.io/New-Years-card/Ethereum/index.html
+https://nandemotoken.github.io/New-Years-card/Ethereum/index.html  
   
   
 
