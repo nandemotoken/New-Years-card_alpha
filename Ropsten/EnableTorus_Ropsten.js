@@ -30,13 +30,13 @@ async function checkcard(){
   console.log(useraddress[0]);
   let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress[0]).call();
   console.log(fromblockchain1);
+  document.getElementById("idn").innerHTML = fromblockchain1;
 }
 
 async function makecard(){
   console.log("make card");
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
- 
  	let useraddress = await web3tr.eth.getAccounts();
   	mycontract.methods.mint().send({ from: useraddress[0] });
 	console.log("useraddress[0]_is_your_Address:" + useraddress[0]);
