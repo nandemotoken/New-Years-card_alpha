@@ -26,7 +26,9 @@ async function checkcard(){
   console.log("check card");
   
   mycontract = await new web3tr.eth.Contract(abi, Address);
-  let fromblockchain1 = await mycontract.methods.getmycardNumber().call();
+  let useraddress = await web3tr.eth.getAccounts();
+  console.log(useraddress);
+  let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress).call();
   console.log(fromblockchain1);
 }
 
