@@ -12,7 +12,7 @@ https://nandemotoken.github.io/New-Years-card/xDai/index.html
 
 ---
 
-### Ethereum Rinkeby Testnet
+### Rinkeby Testnet
 https://nandemotoken.github.io/New-Years-card/Rinkeby/index.html  
 
 ---
