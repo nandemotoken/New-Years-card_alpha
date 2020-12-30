@@ -1,14 +1,10 @@
 # New-Years-card
 
-## 好きなネットワークを選んでください
+### 年賀状の予約
+https://nandemotoken.github.io/New-Years-card/AddressCollector/index.html
 
-### matic network
+### 年賀状の発行
 https://nandemotoken.github.io/New-Years-card/matic/index.html
-
----
-
-### Rinkeby Testnet
-https://nandemotoken.github.io/New-Years-card/Rinkeby/index.html  
 
 ---
 
