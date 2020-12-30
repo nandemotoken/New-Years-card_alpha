@@ -2,16 +2,6 @@
 
 ## 好きなネットワークを選んでください
 
-### Ethereum
-https://nandemotoken.github.io/New-Years-card/Ethereum/index.html  
-
----
-
-### xDai Network
-https://nandemotoken.github.io/New-Years-card/xDai/index.html
-
----
-
 ### matic network
 https://nandemotoken.github.io/New-Years-card/matic/index.html
 
