@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
   with open( "test.txt" , 'a') as f:
     try:
-      f.writelines( request.args.get('address'))
+      f.writelines( request.args.get('address') + "\n" )
     except:
       return 'アドレスを取得できません'
   return '年賀状をお待ちください'
