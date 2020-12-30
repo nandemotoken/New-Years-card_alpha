@@ -31,7 +31,7 @@ async function checkcard(){
   let fromblockchain1 = await mycontract.methods.getmycardNumber(useraddress[0]).call();
   console.log(fromblockchain1);
 	if (fromblockchain1 != 0){
-  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0x64f02d67374cf446a6ebf05f3baed5143a6967ad/instance/' + fromblockchain1 + '/token-transfers' + '">https://explorer-mainnet.maticvigil.com/tokens/0x64f02d67374cf446a6ebf05f3baed5143a6967ad/instance/' + fromblockchain1 + '/token-transfers';
+  document.getElementById("idn").innerHTML =  '<a href="https://explorer-mainnet.maticvigil.com/tokens/0x64f02d67374cf446a6ebf05f3baed5143a6967ad/instance/' + fromblockchain1 + '/token-transfers"' + ' target=_"blank">あなたの年賀状のURLはこちら</a>';
 	}
 	}
 
