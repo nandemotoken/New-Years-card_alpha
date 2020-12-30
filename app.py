@@ -6,7 +6,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  f = open( "test.txt" , 'a')
-  f.writelines( request.args.get('address'))
-  f.close()
-  return 'make file'
+  with open( "test.txt" , 'a') as f:
+    try:
+      f.writelines( request.args.get('address'))
+    expect:
+      return 'アドレスを取得できません'
+  return '年賀状をお待ちください'
