@@ -6,6 +6,6 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
   f = open( "test.txt" , 'w')
-  f.write('test')
+  f.writelines( "this is test" )
   f.close()
   return 'make file'
