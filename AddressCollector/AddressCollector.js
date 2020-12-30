@@ -32,5 +32,6 @@ web3tr = new Web3(torus.provider);
 }
 
 function addresscollector() {
-console.log("address")
+   let useraddress = await web3tr.eth.getAccounts();
+  console.log( "address is" + useraddress[0]);
 }
