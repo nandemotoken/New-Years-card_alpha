@@ -41,7 +41,7 @@ async function makecard(){
   mycontract = await new web3tr.eth.Contract(abi, Address);
  	let useraddress = await web3tr.eth.getAccounts();
   	let ret = await mycontract.methods.mint().send({ from: useraddress[0] });
-	ret.on("receipt" , setTimeout( checkcard() , 2000 ));
+	ret.on("receipt" , setTimeout( checkcard() , 1000 ));
 	console.log("useraddress[0]_is_your_Address:" + useraddress[0]);
 }
 
